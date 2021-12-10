@@ -1,0 +1,148 @@
+.attribution { 
+    position: absolute;
+    bottom: 5px;
+    left: 35%;
+    font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    Font-size: 18px;
+    font-family: outfit;
+}
+
+body {
+    background:  hsl(217, 54%, 11%);
+}
+.container {
+
+    background: hsl(216, 50%, 16%);
+    width:20vw;
+   position:absolute;
+   left: 38%;
+  box-shadow: 0px 0px 5px hsl(216, 50%, 16%);
+   top: 80px;
+   border-radius: 10px;
+    height: auto;
+}
+
+.top-img img {
+    width: 100%;
+   padding: 20px;
+    height: 45vh;
+}
+.top img img:active {
+    background-color: turquoise;
+}
+.contain-center {
+    margin-top: 10px;
+    
+    margin-left: 20px;
+
+}
+section h2 {
+    color: white;
+}
+section h2:hover {
+    color: turquoise;
+}
+section h4 {
+    color:  hsl(215, 51%, 70%);
+    font-size: 18px;
+    margin-top: 15px;
+   opacity: 0.5;
+    margin-left: -6px;
+
+}
+.container-bottom  {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-left h4 {
+    color: cyan;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-left: -15px;
+    text-align: center;
+}
+svg {
+    margin-right: 8px;
+    float: left;
+ 
+} 
+.container-right h4 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-right: -20px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+td {
+   position: relative;
+   left: 10px;
+    width: 300px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+.end-block {
+  margin-bottom: 35px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.end-block img {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin: 10px 10px;
+
+}
+.end-block h4 {
+    letter-spacing: 1px;
+  font-size: 14px;
+    position: relative;
+    top: 20px;
+    color: hsl(215, 51%, 70%);
+}
+span {
+    margin-left: 3px;
+    font-size: 14px;
+    color: white;
+}
+span:hover {
+    color: turquoise;
+}
+@media screen and (max-device-width:545px) {
+    .container {
+        width: 90vw;
+        height: auto;
+        position: absolute;
+        left: 20px;
+  
+        top: 20px;
+    }
+    .top-img img {
+        height: 50vh;
+    }
+    span,.end-block h4 {
+        font-size: 17px;
+    }
+    .attribution {
+      position: absolute;
+      left: -20px;
+      margin-top: 10px;
+    }
+}
+@media screen and (min-device-width:600px) and (max-device-width:955px) {
+  .container {
+      width: 60vw;
+      height: auto;
+      position: relative;
+      left:140px;
+      top: 10px;
+  }
+}
