@@ -31,9 +31,18 @@ body {
    padding: 20px;
     height: 45vh;
 }
-.top img img:active {
-    background-color: turquoise;
+.overlay {
+    background:hsl(178, 100%, 50%) ;
+    position: absolute;
+    top: 20px;
+    width: 90%;
+    left: 20px;
+    height: 42vh;
+    opacity: 0.6;
+    display: none;
 }
+.top-img:hover .overlay {
+    display: block;
 .contain-center {
     margin-top: 10px;
     
