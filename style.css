@@ -144,9 +144,14 @@ span:hover {
     span,.end-block h4 {
         font-size: 17px;
     }
-     .top-img:hover .overlay {
+     .top-img::before:hover .overlay {
+          content: '';
         width: 88.50%;
-          height: 50vh;
+          height: 46vh;
+      }
+       .top-img::after:hover .overlay {
+             content: '';
+           visibility: hidden;
       }
 }
 @media screen and (min-device-width:600px) and (max-device-width:955px) {
