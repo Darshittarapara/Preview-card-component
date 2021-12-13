@@ -42,6 +42,9 @@ body {
     opacity: 0.6;
     display: none;
 }
+.top-imag {
+     transition: 0.25s ease-in-out;
+}
 .top-img:hover .overlay {
     display: block;
 }
@@ -141,7 +144,10 @@ span:hover {
     span,.end-block h4 {
         font-size: 17px;
     }
-    
+     .top-img:hover .overlay {
+        width: 88.50%;
+          height: 50vh;
+      }
 }
 @media screen and (min-device-width:600px) and (max-device-width:955px) {
   .container {
