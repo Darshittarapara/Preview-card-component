@@ -147,9 +147,9 @@ span:hover {
      .top-img::before:hover .overlay {
           content: '';
         width: 88.50%;
-          height: 46vh;
+          height: 47vh;
       }
-       .top-img::after:visited  .overlay {
+       .top-img:visited  .overlay {
             
            visibility: hidden;
       }
